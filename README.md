@@ -2,9 +2,9 @@
 
 ## Data
 ### Getting data
-Data (reviews, names of banks, rating) are obtained from the site sravni.ru using parsing in 3 stages:
+Data (reviews, names of banks, rating) are obtained from the website of reviews about banks.  Using parsing in 3 stages:
 
-1. The data is obtained by parsing pages with reviews. We parse pages to get data in the format: id, link, bank, rating. Parsing is carried out in parts. We margin separate files and get the final data set **list.csv**
+1. The data was obtained by parsing pages with reviews. We parse pages to get data in the format: id, link, bank, rating. Parsing is carried out in parts. We combine individual files and get the final data set **list.csv**
 
 2. Links are taken from a previously generated dataset. We parse pages to get data in the format: 'id', 'text', 'bank', 'rating'. Parsing is carried out in parts.
 
