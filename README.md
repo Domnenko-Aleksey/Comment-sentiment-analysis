@@ -8,7 +8,7 @@ Data (reviews, names of banks, rating) are obtained from the site sravni.ru usin
 
 2. Links are taken from a previously generated dataset. We parse pages to get data in the format: 'id', 'text', 'bank', 'rating'. Parsing is carried out in parts.
 
-3. We margin separate files and get the final dataset **data.csv**
+3. Connect separate files and get the final dataset **data.csv**
 
 Result: **list.csv**, **data.csv**
 
